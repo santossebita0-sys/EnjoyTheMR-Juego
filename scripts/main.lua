@@ -1,5 +1,9 @@
 function OnStart()
-    print("¡Mi Primer Juego empezó!")
-    print("Nombre: " .. EMRAPI.App:GetName())
-    print("Versión: " .. EMRAPI.App:GetVersion())
+    local panel = EMRAPI.UI:CreatePanel(1.0, 0.6)
+
+    local label = EMRAPI.UI:CreateText(panel, "MI PRIMER JUEGO")
+
+    local btn = EMRAPI.UI:CreateButton(panel, "¡JUGAR!", function()
+        EMRAPI:Log("¡Botón JUGAR presionado!")
+    end)
 end
