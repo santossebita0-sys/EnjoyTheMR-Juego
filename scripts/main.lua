@@ -1,1 +1,3 @@
-print("¡Hola! Este es mi primer juego de EnJoyTheMR")
+function onStart()
+    print("¡Mi Primer Juego empezó!")
+end
