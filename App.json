@@ -3,7 +3,7 @@
   "name": "Mi Primer Juego",
   "version": "1.0.0",
   "author": "Sebastian",
-  "description": "Mi primer juego para EnJoyTheMR",
+  "description": "Mi primer juego de EnJoyTheMR",
   "entry": "scripts/main.lua",
   "display": "window",
   "minApiVersion": 1,
