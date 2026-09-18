@@ -1,0 +1,12 @@
+{
+  "id": "com.sebastian.miprimerjuego",
+  "name": "Mi Primer Juego",
+  "version": "1.0.0",
+  "author": "Sebastian",
+  "description": "Mi primer juego para EnJoyTheMR",
+  "entry": "scripts/main.lua",
+  "display": "window",
+  "minApiVersion": 1,
+  "type": "lua",
+  "permissions": ["ui"]
+}
